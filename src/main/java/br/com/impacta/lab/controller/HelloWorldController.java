@@ -22,7 +22,7 @@ public class HelloWorldController {
 		//teste
 
 		
-		return ResponseEntity.ok("Hello world !");
+		return ResponseEntity.ok("Hello world " + nome + " !");
 	}
 	
 }
